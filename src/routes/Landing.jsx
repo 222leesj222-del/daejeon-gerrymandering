@@ -57,8 +57,12 @@ export default function Landing() {
               </span>
             </button>
           </div>
-
-          <Link to="/privacy" className="mt-10 inline-block text-xs font-bold text-white/30 hover:text-white/60">
+             <p className="mt-10 text-[11px] font-semibold leading-5 text-white/35">
+               원작: 「지도를 훔친 자들」 세종시 게리맨더링 시뮬레이션 (쌤킴)
+               <br />
+               대전 버전으로 수정
+             </p>
+          <Link to="/privacy" className="mt-3 inline-block text-xs font-bold text-white/30 hover:text-white/60">
             개인정보처리방침
           </Link>
         </div>
